@@ -293,10 +293,9 @@ library UniverselLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'deb4b48f122dbe888e211fa5351f9af77e1c5857475095fb824d35b7d71b4a03' // init code hash
+                hex'61FfB6D08b621C0636287C048Bd8d2f65629037c' // init code hash
             ))));
-            // 0x548bdd5bd924e4217eea2601ac7ae30eff71ebef3ed51911ce5f35c1d8a13c4a 
-            // 0xdeb4b48f122dbe888e211fa5351f9af77e1c5857475095fb824d35b7d71b4a03
+            // 0x61FfB6D08b621C0636287C048Bd8d2f65629037c  
     }
 
     // fetches and sorts the reserves for a pair
