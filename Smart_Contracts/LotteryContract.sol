@@ -57,6 +57,10 @@ contract Lottery is VRFConsumerBase {
     }
 
     function pickWinner() public onlyowner {
+        getRandomNumber();
+    }
+
+    function pickWinner() public {
         uint index = randomResult % players.length;
         players[index].transfer(address(this).balance);
 
